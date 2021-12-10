@@ -18,11 +18,11 @@ Permite a você construir objetos complexos passo a passo. O padrão permite que
 [📍 Implementação em Dart](./criacionais/builder.dart)
 
 ### 4. Factory
-Permite copiar objetos existentes sem fazer seu código ficar dependente de suas classes.[Clique aqui para saber mais.](https://refactoring.guru/pt-br/design-patterns/prototype)
+Permite copiar objetos existentes sem fazer seu código ficar dependente de suas classes. [Clique aqui para saber mais.](https://refactoring.guru/pt-br/design-patterns/prototype)
 
 [📍 Implementação em Dart](./criacionais/factory.dart)
 
 ### 5. Singleton
-Permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.[Clique aqui para saber mais.](https://refactoring.guru/pt-br/design-patterns/singleton)
+Permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância. [Clique aqui para saber mais.](https://refactoring.guru/pt-br/design-patterns/singleton)
 
 [📍 Implementação em Dart](./criacionais/singleton.dart)
