@@ -49,6 +49,11 @@ Permite que você defina um mecanismo de assinatura para notificar múltiplos ob
 [💻 Implementação em Dart](./comportamentais/observer.dart)
 
 ### 📌 [Strategy](https://refactoring.guru/pt-br/design-patterns/strategy)
-permite que você defina uma família de algoritmos, coloque-os em classes separadas, e faça os objetos deles intercambiáveis.
+Permite que você defina uma família de algoritmos, coloque-os em classes separadas, e faça os objetos deles intercambiáveis.
 
 [💻 Implementação em Dart](./comportamentais/strategy.dart)
+
+### 📌 [Template Method](https://refactoring.guru/pt-br/design-patterns/template-method)
+Define o esqueleto de um algoritmo na superclasse mas deixa as subclasses sobrescreverem etapas específicas do algoritmo sem modificar sua estrutura.
+
+[💻 Implementação em Dart](./comportamentais/template_method.dart)
