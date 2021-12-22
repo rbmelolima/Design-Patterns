@@ -47,3 +47,8 @@ Permite que você reduza as dependências caóticas entre objetos. O padrão res
 Permite que você defina um mecanismo de assinatura para notificar múltiplos objetos sobre quaisquer eventos que aconteçam com o objeto que eles estão observando.
 
 [💻 Implementação em Dart](./comportamentais/observer.dart)
+
+### 📌 [Strategy](https://refactoring.guru/pt-br/design-patterns/strategy)
+permite que você defina uma família de algoritmos, coloque-os em classes separadas, e faça os objetos deles intercambiáveis.
+
+[💻 Implementação em Dart](./comportamentais/strategy.dart)
