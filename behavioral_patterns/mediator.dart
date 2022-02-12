@@ -1,7 +1,14 @@
+// A interface mediadora declara um método usado pelos
+// componentes para notificar o mediador sobre vários eventos. O
+// mediador pode reagir a esses eventos e passar a execução para
+// outros componentes.
 abstract class Mediator {
   void notify(dynamic sender, String event) => throw Exception();
 }
 
+// A classe mediadora concreta. A rede entrelaçada de conexões
+// entre componentes individuais foi desentrelaçada e movida
+// para dentro do mediador.
 class AuthenticationDialog implements Mediator {
   String title = "";
   late final Checkbox _loginOrRegisterChkbx;
@@ -13,6 +20,8 @@ class AuthenticationDialog implements Mediator {
   late final Button _okBtn;
   late final Button _cancelBtn;
 
+  // Cria todos os objetos componentes e passa o atual
+  // mediador em seus construtores para estabelecer links.
   AuthenticationDialog({
     required Checkbox loginOrRegisterChkbx,
     required Textfield loginUsername,
@@ -41,6 +50,10 @@ class AuthenticationDialog implements Mediator {
     this._registrationUsername.setMediator(this);
   }
 
+  // Quando algo acontece com um componente, ele notifica o
+  // mediador. Ao receber a notificação, o mediador pode fazer
+  // alguma coisa por conta própria ou passar o pedido para
+  // outro componente.
   @override
   void notify(sender, String event) {
     if (sender == _loginOrRegisterChkbx && event == "click") {
@@ -68,6 +81,10 @@ class AuthenticationDialog implements Mediator {
   }
 }
 
+// Os componentes se comunicam com o mediador usando a interface
+// do mediador. Graças a isso, você pode usar os mesmos
+// componentes em outros contextos ao ligá-los com diferentes
+// objetos mediadores.
 class Component {
   late Mediator mediator;
 
