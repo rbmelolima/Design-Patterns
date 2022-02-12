@@ -74,3 +74,8 @@ Permite que você acople novos comportamentos para objetos ao colocá-los dentro
 Fornece uma interface simplificada para uma biblioteca, um framework, ou qualquer conjunto complexo de classes.
 
 [💻 Implementação em Dart](./structural_patterns/facade.dart)
+
+#### 📌 Adapter
+Permite objetos com interfaces incompatíveis colaborarem entre si.
+
+[💻 Implementação em Dart](./structural_patterns/Adapter.dart)
