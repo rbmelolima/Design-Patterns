@@ -1,4 +1,6 @@
 # Padrões de projetos
+> Para aprender mais sobre os padrões de projeto, segui como guia de estudos o site Refactoring.Guru. Portanto, não tenho intenção de dizer que "fiz todos os códigos", mas sim implementei na linguagem que não existe no site e estou mais habituado.
+
 Design Patterns (comumente relacionados na literatura de TI como “Padrões de Projeto”) são soluções para problemas comuns que encontramos no desenvolvimento ou manutenção de um software orientado a objetos (não são tão bem aplicáveis em outros paradigmas).
 
 ...
